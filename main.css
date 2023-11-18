@@ -1,0 +1,176 @@
+/*aplicável para o modelo todo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px 20px;
+    background-color: rgb(15, 12, 12);
+    color: goldenrod;
+    width: 100%;
+    display: flex;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+    font-size: larger;
+}
+
+header h1 {
+    margin-left: 500px;
+}
+header b {
+    font-size: 60px;
+    font-style: italic;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 500px;
+}
+
+header nav li a {
+    color: goldenrod;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+/*nessa regra, define-se o modo como será visualizado, o alinhamento dos itens no eixo vertical e o 'justify-content' vai deixar em modo "justificado" pro canto direito" */
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    padding: 30px 0;
+}
+
+#about h2 {
+    margin-bottom: 16px;
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+#about p {
+    margin-bottom: 8px;
+    margin-left: 20px;
+    margin-right: 400px;
+}
+
+#front_store {
+    max-width: 100%;
+    max-height: auto;
+    margin-left: 500px;
+}
+
+/*nessa regra, o texto foi alinhado para iniciar do "começo"-start */
+section .container {
+    align-items: flex-start;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#contact .container {
+    display: inline-block;
+}
+
+.contact_methods {
+    display: flex;
+}
+
+.container .brands_list li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+    object-fit: cover;
+}
+
+.brands_list img {
+    height: 70px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+}
+
+section #contact h2 {
+    margin: auto;
+    font-size: 40px;
+}
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+    font-size: larger;
+}
+
+#bara {
+    display: flex;
+    margin-left: 500px;
+}
+
+#bara h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.col1, .col2, .col3 {
+    flex:auto;
+}
+
+.social_links img {
+    height: 40px;
+    margin-right: 40px;
+}
+
+.social_links  {
+    display: flex;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.contact form {
+    margin-top: 20px;
+}
+
+.contact form input {
+    margin-bottom: 20px;
+}
+
+.contact form button {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: larger;
+    color: goldenrod;
+    background-color: black;
+}
+
+.contact form button:hover {
+    cursor: pointer;
+}
+
+.col3 p {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: black;
+    color:goldenrod;
+    padding: 16px 0;
+}
